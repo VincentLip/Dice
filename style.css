@@ -1,0 +1,77 @@
+html,body {
+    margin: 0;
+}
+
+.dice-content {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: wheat;
+    border-radius: 25px;
+}
+
+.dice-content div {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#dice2 {
+    left: 210px;
+}
+
+#dice3 {
+    left:420px;
+}
+
+#dice4 {
+    top: 210px;
+}
+
+#dice5 {
+    top: 210px;
+    left: 210px;
+}
+
+#dice6 {
+    top: 210px;
+    left:420px;
+}
+
+.middle {  
+    top: 75px;
+    left: 75px;
+}
+
+.top-left{
+    top: 10px;
+    left: 10px;
+}
+
+.top-right{
+    top: 10px;
+    right: 10px;
+}
+.down-right{
+    bottom: 10px;
+    right: 10px;
+}
+
+.down-left{
+    bottom: 10px;
+    left: 10px;
+}
+
+.middle-right {
+    top: 75px;
+    right:10px;
+}
+
+.middle-left {
+    top: 75px;
+    left:10px;
+}
+
+
